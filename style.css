@@ -1,3 +1,55 @@
-h1{
-    color: chocolate;
+* {
+    margin: 0;
 }
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li {
+    list-style: none;
+    display: flex;
+    margin: 10px;
+    background-color: rgb(193, 180, 204);
+    border: solid black 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+}
+#head-of-page{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 23vh;
+    background-color: coral;
+    color: rgb(97, 230, 230);
+}
+.tasks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+
+}
+#section {
+    border: solid rgb(1, 1, 1) 1px;
+}
+#checkbox{
+    width: 100px;
+    height: 100px;
+}
+#footer{
+    background-color: silver;
+    display: block;
+}
+#button {
+    width: 400px;
+    height: 100px;
+}
+#footers{
+    background-color: silver;
+    font-size: 39px;  
+}
+    .omelette{
+        font-size: 30px;
+    }
